@@ -13,8 +13,7 @@ tkinterdnd2-universal
 pillow
 onnxruntime
 
-onnxruntime-silicon
-onnxruntime-gpu
+
 tensorflow
 opennsfw2
 protobuf
