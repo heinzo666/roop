@@ -12,7 +12,9 @@ tkinterdnd2
 tkinterdnd2-universal
 pillow
 onnxruntime
-
+onnxruntime-coreml==1.13.1; python_version == '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
+onnxruntime-silicon==1.13.1; sys_platform == 'darwin' and platform_machine == 'arm64'
+onnxruntime-gpu==1.15.1; sys_platform != 'darwin'
 
 tensorflow
 opennsfw2
