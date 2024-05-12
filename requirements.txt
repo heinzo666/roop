@@ -12,7 +12,7 @@ tkinterdnd2
 tkinterdnd2-universal
 pillow
 onnxruntime
-onnxruntime-coreml==1.13.1
+
 onnxruntime-silicon
 onnxruntime-gpu
 tensorflow
